@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".cau2b">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:text="Giải phương trình bậc 2"/>
+
+    <EditText
+        android:id="@+id/edtA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="75dp"
+        android:layout_marginRight="75dp"
+        android:hint="Nhập a"/>
+
+    <EditText
+        android:id="@+id/edtB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="75dp"
+        android:layout_marginRight="75dp"
+        android:hint="Nhập b"/>
+
+    <EditText
+        android:id="@+id/edtC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="75dp"
+        android:layout_marginRight="75dp"
+        android:hint="Nhập c"/>
+
+    <Button
+        android:id="@+id/btnSendBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="75dp"
+        android:layout_marginRight="75dp"
+        android:layout_marginTop="50dp"
+        android:text="Giải và gửi kết quả"/>
+</LinearLayout>

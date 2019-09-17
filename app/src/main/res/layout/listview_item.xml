@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:padding="10dp"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imgAvatar"
+        android:layout_width="96dp"
+        android:layout_height="96dp" />
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_toRightOf="@id/imgAvatar"
+        android:layout_width="wrap_content"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:text="Ky Duyen"/>
+
+    <TextView
+        android:id="@+id/tvYear"
+        android:layout_toRightOf="@id/imgAvatar"
+        android:layout_below="@id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1990"/>
+
+    <ImageView
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_alignParentRight="true"
+        android:id="@+id/imgCountry"
+        android:layout_width="84dp"
+        android:layout_height="56dp" />
+</RelativeLayout>
